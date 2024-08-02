@@ -7,8 +7,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Weather App</h1>
-        <Weather/>
+        <Weather />
       </header>
+      <footer>
+        This project was coded by Jessica Gardiner and is
+        <a href="https://github.com/JesGardiner/weather-react" target="_blank">
+          open-sourced on Github
+        </a>
+        and hosted on
+        <a
+          href="https://app.netlify.com/teams/jesgardiner/sites"
+          target="_blank"
+        >
+          Netlify
+        </a>
+      </footer>
     </div>
   );
 }
