@@ -8,15 +8,23 @@ ul {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  font-size: small;
+}
+
+a {
+  color: #A7EFFB;
+}
+
 .App-header {
-  background-color: #FFF4DD;
+  background-color: #1a294b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #665022;
+  color: white;
 }
 
 
